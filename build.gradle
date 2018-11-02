@@ -30,3 +30,17 @@ dependencies {
 // Define the main class for the application
 mainClassName = 'ohtu.ohtuvarasto.Main'
 
+// Lisätty konfiguraatio siis kertoo, mikä ohjelman luokista on pääohjelma,
+// eli sisältää metodin main
+jar {
+    manifest {
+        attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
+    }
+}
+
+// testauskattavuuden saat selville Gradlen JaCoCo-pluginin avulla
+
+// ota plugin projektissasi käyttöön lisämäällä tiedostoon build.gradle
+// seuraava rivi:
+
+apply plugin: "jacoco" 
