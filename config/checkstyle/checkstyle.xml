@@ -18,7 +18,10 @@
             <property name="option" value="eol"/>
         </module>
         <module name="MagicNumber"/>
-        <module name="NestedForDepth"/>
+        <module name="NestedForDepth">
+            <property name="max" value="1"/>
+        </module>
+        
         
     </module>
     
