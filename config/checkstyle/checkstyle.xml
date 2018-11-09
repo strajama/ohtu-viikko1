@@ -8,7 +8,9 @@
             <property name="max" value="60"/>
             <property name="countEmpty" value="false"/>
         </module>
-        
+        <module name="CyclomaticComplexity">
+            <property name="max" value="15"/>
+        </module>
 
         
     </module>
