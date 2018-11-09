@@ -3,9 +3,6 @@
 <module name="Checker">
 
     <module name="TreeWalker">
-        
-        
-     //  <module name="CommentsIndentation"/>
         <module name="MethodLength">
             <property name="tokens" value="METHOD_DEF"/>
             <property name="max" value="60"/>
