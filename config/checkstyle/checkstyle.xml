@@ -21,7 +21,9 @@
         <module name="NestedForDepth">
             <property name="max" value="0"/>
         </module>
-        
+        <module name="NestedIfDepth">
+            <property name="max" value="0"/>
+        </module>
         
     </module>
     
