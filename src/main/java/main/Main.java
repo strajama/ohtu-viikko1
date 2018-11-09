@@ -12,11 +12,11 @@ public class Main {
         System.out.println("Luonnin jälkeen:");
         System.out.println("Mehuvarasto: " + mehua);
         System.out.println("Olutvarasto: " + olutta);
-        for( int i=0; i<1; i++ ) {
-            for( int j=0; i<j; j++ ) {
-        System.out.println("virhe");
-            } 
-        }
+            for( int i=0; i<1; i++ ) {
+                for( int j=0; i<j; j++ ) {
+            System.out.println("virhe");
+                } 
+            }
 
     }
 }
