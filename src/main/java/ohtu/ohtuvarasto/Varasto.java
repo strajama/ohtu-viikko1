@@ -85,6 +85,16 @@ public class Varasto {
         int testi11 = 1;
         int testi13 = 3;
         int testi14 = 4;
+        int testi = 0;
+        int testi2 = 2;
+        int testi1 = 1;
+        int testi3 = 3;
+        int testi4 = 4;
+        int testi5 = 0;
+        int testi12 = 2;
+        int testi11 = 1;
+        int testi13 = 3;
+        int testi14 = 4;
         return maara;
     }
 
