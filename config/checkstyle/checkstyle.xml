@@ -9,7 +9,10 @@
             <property name="countEmpty" value="false"/>
         </module>
         <module name="CyclomaticComplexity">
-            <property name="max" value="15"/>
+            <property name="max" value="3"/>
+        </module>
+        <module name="Indentation">
+            <property name="caseIndent" value="0"/>
         </module>
 
         
