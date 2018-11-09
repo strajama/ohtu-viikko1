@@ -37,11 +37,11 @@ public class Statistics {
 
     public List<Player> topScorers(int howMany) {
         Collections.sort(players);
-        ArrayList<Player> topScorers = new ArrayList<Player>();
+        ArrayList<Player> topScorersList = new ArrayList<Player>();
         Iterator<Player> playerIterator = players.iterator();
         
         while (howMany>=0 ){ //&& playerIterator.hasNext()) {
-            topScorers.add( playerIterator.next() );            
+            topScorersList.add( playerIterator.next() );            
             howMany--;
         }
         
