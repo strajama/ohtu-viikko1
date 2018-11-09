@@ -16,7 +16,7 @@ public class Varasto {
         }
         saldo = 0;     // oletus: varasto on tyhjä
     }
-
+/*
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
@@ -33,6 +33,7 @@ public class Varasto {
             this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
+    */
 
     // --- ottavat aksessorit eli getterit: ---
     public double getSaldo() {
