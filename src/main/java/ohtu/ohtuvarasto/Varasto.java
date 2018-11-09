@@ -11,7 +11,8 @@ public class Varasto {
         if (tilavuus > 0.0) {
             this.tilavuus = tilavuus;
             if (true) {
-                int thenGoOn = 0;
+                int thenGoOn = 0;}
+                
         } else {
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
