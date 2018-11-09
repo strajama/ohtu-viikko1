@@ -75,6 +75,11 @@ public class Varasto {
         }
         // jos tänne päästään, kaikki pyydetty voidaan antaa
         saldo = saldo - maara;  // vähennetään annettava saldosta
+        int testi = 0;
+        int testi2 = 2;
+        int testi1 = 1;
+        int testi3 = 3;
+        int testi4 = 4;
         return maara;
     }
 
