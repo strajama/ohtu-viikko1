@@ -19,7 +19,7 @@
         </module>
         <module name="MagicNumber"/>
         <module name="NestedForDepth">
-            <property name="max" value="1"/>
+            <property name="max" value="0"/>
         </module>
         
         
