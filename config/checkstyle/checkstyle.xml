@@ -9,5 +9,6 @@
             <property name="countEmpty" value="false"/>
         </module>
     </module>
+    <module name="CommentsIndentation"/>
 
 </module>
