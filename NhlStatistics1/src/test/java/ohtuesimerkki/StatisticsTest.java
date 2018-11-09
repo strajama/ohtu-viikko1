@@ -18,7 +18,7 @@ import org.junit.Test;
  */
 public class StatisticsTest {
 
-    Reader readerStub = new Reader() {
+    public Reader readerStub = new Reader() {
 
         public List<Player> getPlayers() {
             ArrayList<Player> players = new ArrayList<Player>();
@@ -33,7 +33,7 @@ public class StatisticsTest {
         }
     };
 
-    Statistics stats;
+    public Statistics stats;
 
     @Before
     public void setUp() {
